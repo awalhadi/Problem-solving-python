@@ -1,0 +1,6 @@
+second = int(input())
+h = int(second/3600)
+rest = int(second % 3600)
+m = int(rest / 60)
+s = (rest % 60)
+print("{h}:{m}:{s}".format(h=h, m=m, s=s))
